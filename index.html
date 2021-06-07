@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/media-query.css" />
+    <title>Frontend Mentor | Intro component with sign up form</title>
+    <script src="./src/js/script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <section class="content">
+        <h1>Learn to code by watching others</h1>
+        <p>
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </section>
+      <section class="signature">
+        <aside>
+          <p><span>Try it free 7 days</span> then $20/mo. thereafter</p>
+        </aside>
+
+        <form class="form" id="form">
+          <div class="form-control" id="form-control">
+            <input
+              type="text"
+              id="firstname"
+              name="registerName"
+              placeholder="   First Name"
+            />
+            <img
+              class="fas fa-check-circle"
+              src="./images/ico-check.svg"
+              alt=""
+            />
+            <img
+              class="fas fa-exclamation-circle"
+              src="/images/icon-error.svg"
+              alt=""
+            />
+            <small></small>
+          </div>
+
+          <div class="form-control">
+            <input
+              type="text"
+              id="lastname"
+              name="registerLastname"
+              placeholder="   Last Name"
+            />
+            <img
+              class="fas fa-check-circle"
+              src="./images/ico-check.svg"
+              alt=""
+            />
+            <img
+              class="fas fa-exclamation-circle"
+              src="/images/icon-error.svg"
+              alt=""
+            />
+            <small></small>
+          </div>
+
+          <div class="form-control">
+            <input
+              type="email"
+              id="mail"
+              name="registerEmail"
+              placeholder="   Email Address"
+            />
+            <img
+              class="fas fa-check-circle"
+              src="./images/ico-check.svg"
+              alt=""
+            />
+            <img
+              class="fas fa-exclamation-circle"
+              src="/images/icon-error.svg"
+              alt=""
+            />
+            <small></small>
+          </div>
+
+          <div class="form-control">
+            <input
+              type="password"
+              id="password"
+              name="registerPassword"
+              placeholder="   Password"
+            />
+            <img
+              class="fas fa-check-circle"
+              src="./images/ico-check.svg"
+              alt=""
+            />
+            <img
+              class="fas fa-exclamation-circle"
+              src="/images/icon-error.svg"
+              alt=""
+            />
+            <small>Password cannot be empty</small>
+          </div>
+
+          <div class="button">
+            <button type="submit" class="submit" id="submit">
+              Claim your free trial
+            </button>
+          </div>
+          <div>
+            <p>
+              By clicking the button, you are agreeing to our
+              <span>Terms and Services</span>
+            </p>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/ananegridev/">ANA PAULA NEGRI</a>.
+      </p>
+    </footer>
+  </body>
+</html>

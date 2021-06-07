@@ -1,0 +1,59 @@
+@media only screen and (max-width: 768px) {
+  body {
+    background-image: url(/images/bg-intro-mobile.png);
+    height: auto;
+  }
+  main {
+    max-width: 375px;
+    width: 100%;
+    flex-direction: column;
+  }
+  .content {
+    padding: 0;
+    text-align: center;
+    align-items: center;
+  }
+  .content h1 {
+    width: 85%;
+    margin: 15% 0 3% 0;
+    font-size: 1.5rem;
+  }
+  .content p {
+    width: 70%;
+    font-size: 0.8rem;
+  }
+  .signature {
+    margin-right: 0;
+    margin: 0 5% 10% 5%;
+  }
+  aside {
+    margin-top: 15%;
+    text-align: center;
+    padding: 5%;
+  }
+  aside p {
+    width: 60%;
+  }
+  form {
+    padding: 8%;
+  }
+  form input {
+    padding: 6%;
+  }
+  button {
+    padding: 5%;
+    font-size: 0.8rem;
+  }
+  form p {
+    margin: 0 auto;
+    width: 85%;
+    text-align: center;
+    line-height: 2;
+  }
+  .form-control.sucess img.fa-check-circle {
+    top: 13px;
+  }
+  .form-control img {
+    bottom: 38px;
+  }
+}
