@@ -4,7 +4,7 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 
 ## Overview 💡
 
-![img]()
+![img](https://github.com/ananegridev/frontendmentor-intro-component-with-signup-form-master/blob/main/design/desktop-preview.jpg)
 
 ### The challenge 🏆
 
@@ -45,6 +45,7 @@ Your users should be able to:
 ### Continued development
 
 - I need to improve my JavaScript
+- I need to improve my CSS
 - In this challenge I managed to deliver as close as possible
 
 ## Author 💁
